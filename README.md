@@ -12,10 +12,11 @@ In this discussion, we will focus exclusively on alternating links in the 3-sphe
 
 While tools like SnapPy can compute invariants for links, the computational complexity often increases exponentially with the number of crossings. This presents limitations for SnapPy when analyzing infinite families of links. To overcome these limitations for large or infinite link families, we employ the algorithm developed by Thistlethwaite and Tsvietkova in 2014.
 
-One advantage of using their algorithm is that it relies on the diagram, allowing us to exploit the symmetry of the diagram. Using this algorithm, Thistlethwaite and Tsvietkova \cite{thistlethwaite2014alternative, tsvietkova2012hyperbolic} successfully computed the meridian lengths of an infinite family of alternating links that are closures of $3$-braids with the word presentation $(\sigma_1 \sigma_2^{-1})^{n}$ for $n \geq 3$. In this study, we aim to adopt this method to compute the meridian length of an infinite family of alternating links $ B_n $ that are closures of $4$-braids with the word presentation $ ( \sigma_2^{-1} \sigma_{1} \sigma_{3} \sigma_2^{-1})^{n} $ for odd $n \geq 3$.
+One advantage of using their algorithm is that it relies on the diagram, allowing us to exploit the symmetry of the diagram. Using this algorithm, Thistlethwaite and Tsvietkova \cite{thistlethwaite2014alternative, tsvietkova2012hyperbolic} successfully computed the meridian lengths of an infinite family of alternating links that are closures of $3$-braids with the word presentation $(\sigma_1 \sigma_2^{-1})^{n}$ for $n \geq 3$. In this study, we aim to adopt this method to compute the meridian length of an infinite family of alternating links $ B_n $ that are closures of $4$-braids with the word presentation 
+$$ ( \sigma_2^{-1} \sigma_{1} \sigma_{3} \sigma_2^{-1})^{n} $$ for odd $n \geq 3$.
 
 ## Main Result
-Refer to the thesis file for the main theorem. We also compute the numerical values for the meridian length using the code mentioned in the code.py file and compare these values with those obtained from SnapPy.
+Refer to the thesis file for the main theorem (Will provide a link once it is available online). We also compute the numerical values for the meridian length using the code mentioned in the code.py file and compare these values with those obtained from SnapPy.
 
 | n   | SnapPy Values | Our Code Values |
 | --- | ------------- | --------------- |
