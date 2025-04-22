@@ -6,7 +6,7 @@ This repository examines the meridian length of an infinite family of two-compon
 
 
 ## Background
-The hyperbolic structure of alternating links can be derived directly from their diagrams, thanks to an algorithm developed by Thistlethwaite and Tsvietkova [[1]]. Flint later extended this framework to fully augmented links (FALs), proving that they also possess suitable diagrams [[2]]. More recently, Kwon, Park, and Tham generalized the algorithm to links in the thickened torus [[3]].
+The hyperbolic structure of alternating links can be derived directly from their diagrams, thanks to an algorithm developed by Thistlethwaite and Tsvietkova [[1]]. Flint later prove that fully augmented links (FALs) also possess suitable diagrams [[2]]. More recently, Kwon, Park, and Tham generalized the algorithm to links in the thickened torus [[3]].
 
 In this discussion, we will focus exclusively on alternating links in the 3-sphere. The algorithm allows for the extraction of other 3-manifold invariants, such as the invariant trace field, as discussed by Neumann, Tsvietkova, and later by Flint.
 
